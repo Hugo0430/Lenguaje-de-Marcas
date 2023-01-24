@@ -1,0 +1,33 @@
+#romanos {
+
+    list-style-type:upper-roman;
+
+    text-indent: 50px;
+}
+
+#imagenes{
+
+list-style-position: inside;
+
+}
+
+#li1{
+
+list-style-image: url(cenicienta.jpg);
+    
+
+}
+
+#li2{
+
+    list-style-image: url(ariel.jpg);
+
+    
+}
+
+#li3{
+
+    list-style-image: url(bella\ \(1\).jpg);
+
+    
+}
