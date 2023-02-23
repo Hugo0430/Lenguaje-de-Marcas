@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+  }
+  
+  .grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.header{
+    grid-area: header;
+    background-color: grey;
+  
+  }
+  
+
+  .sidebar1{
+    grid-area: sidebar1;
+    background-color: blue;
+    
+  }
+
+  .sidebar2{
+    grid-area: sidebar2;
+    background-color: red;
+    
+  }
+  
+  .main{
+    grid-area: main;
+    background-color: yellow;
+    
+  }
+  
+  .footer{
+    grid-area: footer;
+    background-color: palevioletred;
+    
+  }
+
+  .grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template: 
+    "header " 100px
+    "main" auto
+    "sidebar1" 100px
+    "sidebar2" 100px       
+    "footer " 100px;
+   }
+
+   @media(min-width:0px){
+    .grid-container{
+      display: grid;
+      gap: 10px;
+      grid-template:
+      "header" 100px
+      "main"auto
+      "sidebar1" 120px
+      "sidebar2" 120px
+      "footer" 100px
+    }
+ }   
+
+ @media(min-width:768px){
+    .grid-container{
+      display: grid;
+      gap: 10px;
+      grid-template:
+      "header header" 100px
+      "main main" auto
+      "sidebar2 sidebar1" 120px
+      "footer footer" 100px/
+      200px auto;
+    }
+ }   
+
+   @media(min-width:1200px){
+    .grid-container{
+      display: grid;
+      gap: 10px;
+      grid-template:
+      "header header" 100px
+      "sidebar1 main" auto
+      "sidebar2 main" 120px
+      "footer footer" 100px/
+      200px auto;
+    }
+  }
+
+ 
