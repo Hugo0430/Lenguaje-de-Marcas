@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <mensaje>
-
+Hola que tal
 <remitente>
-<nombre></nombre>
-<email></email>
+Hugo
+<nombre>Antonio</nombre>
+<email>antonio@gmail.com</email>
 </remitente>
 <destinatario>
-<nombre></nombre>
-<email></email>
+Antonio
+<nombre>Hugo</nombre>
+<email>hugo@gmail.com</email>
 </destinatario>
-<asunto></asunto>
+<asunto>Me gustaria hablar contigo</asunto>
 <texto>
-<parrafo></parrafo>
+Hola que tal
+<parrafo>Hola que tal estas Antonio</parrafo>
 </texto>
 </mensaje>
